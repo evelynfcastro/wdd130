@@ -75,7 +75,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
-  grid-column-gap: 130px ;
+  grid-column-gap: 100px ;
   
 }
 .red3 {
