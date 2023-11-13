@@ -6,10 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>London</h1>
-    <hr>
-    <p>London is the capital city of England. It is the most populous <br>
-    city in the United Kingdom, with a metropolitan area of over <strong>13 million</strong>  inhabitants.</p>
-    
+    <form action="/action_page.php" method="get">
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <button type="submit" value="Submit">Submit</button>
+        <button type="reset" value="Reset">Reset</button>
+      </form>
 </body>
 </html>
