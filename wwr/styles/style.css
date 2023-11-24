@@ -12,6 +12,9 @@ nav{
     padding: 35px ;
     display: flex;
     justify-content: space-around;
+    padding-top: 5px;
+    justify-self:center ;
+    align-self: center;
 }
 a{
     text-align: center;
