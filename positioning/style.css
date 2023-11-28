@@ -1,0 +1,17 @@
+.log-in{
+    background-color: blueviolet;
+    padding: 30px;
+    color: white;
+
+}
+.log-in:hover{
+    background-color: brown;
+    opacity: 0.5;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }

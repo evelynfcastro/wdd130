@@ -136,3 +136,99 @@ font-family: "Yantramanav" ;
 .link:hover{
     background-color: #fff;
 }
+
+.container {
+    position: relative;
+    width: 50%;
+  }
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+.text {
+    background-color: #902923;
+    color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 16px 32px;
+  }
+
+.container:hover .image {
+    opacity: 0.3;
+  }
+
+.container:hover .middle {
+    opacity: 1;
+}
+
+#contact-grid{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    grid-template-rows: 4fr 2fr
+}
+#contact-grid{
+  text-align: center;
+  margin-top: 50px;
+}
+#title02{
+    background-color: #902923;
+    border-radius: 10px;
+}
+.subtitle{
+    background-color: #b9b9b9;
+    opacity: 1;
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+.container{
+    width: 90%;
+    margin: 30px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+}
+.contact-info{
+    font-family: "Yantramanav";
+    font-weight: bold;
+    font-size: 25px;
+}
+.input{
+    font-weight: 900;
+    font-family: "EB+Geramond", Georgia;
+}
+#content02{
+    margin-top: 30px;
+}
+#feedback{
+    grid-column: 1/3;
+    grid-row: 2/4;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #902923;
+    padding: 20px;
+    
+}
+fieldset{
+    display: block;
+}

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="styles/styles.css">
     <title>Document</title>
 </head>
 <body>
@@ -22,50 +23,56 @@
         <section id="content02">
            <h2 id="title02">Contact us</h2>
            <div class="informations">
-             <h3><strong> Adress:</strong></h3>
+             <h3 class="subtitle"><strong> Adress:</strong></h3>
              <h5>Street João Pessoal 114</h5>
            </div>
            <div class="informations">
-               <h3><strong> Opening hours::</strong></h3>
+               <h3 class="subtitle"><strong> Opening hours::</strong></h3>
                <h5>Mon- Fri from 8AM to 6PM </h5>
            </div>
            <div class="informations">
-               <h3><strong> Phone Number:</strong></h3>
+               <h3 class="subtitle"><strong> Phone Number:</strong></h3>
                <h5> 55 32442110</h5>
            </div>
            <div class="informations">
-               <h3><strong> E-mail:</strong></h3>
+               <h3 class="subtitle"><strong> E-mail:</strong></h3>
                <h5>organinacaocastro@hotmail.com</h5>
            </div>
         </section>
-        <img id="contact-icons" src="images/contact us.jpg" alt="contact-icons">
+        <div class="container">
+            <img class="image" src="images/contact us.jpg" alt="contact-icons" >
+            <div class="middle">
+                <div class="text">Become our client today!</div>
+              </div>
+        </div>
        
-        <div id="feedback"></div>
-        <form action="/my-handling-form-page" method="post">
-            <fieldset>
-                  <legend>Contact info</legend>
-                          <label for="name">Name:</label>
-                          <input type="text" id="name" name="user_name">          
-                <label for="mail">E-mail:</label>
-                        <input type="email" id="mail" name="user_email">
-                          
-                        <label for="msg">Message:</label>
-                        <textarea id="msg" name="user_message"></textarea>    
-            </fieldset>
-                 <button type="submit">Send your message</button>
+        <div id="feedback">
+            <form action="/my-handling-form-page" method="post">
+               <fieldset>
+                     <legend class="contact-info">Contact Info</legend>
+                             <label class="input for="name">Name:</label>
+                             <input type="text" id="name" name="user_name">          
+                   <label class="input for="mail">E-mail:</label>
+                           <input type="email" id="mail" name="user_email">
+                             
+                           <label class="input for="msg">Message:</label>
+                           <textarea id="msg" name="user_message"></textarea>    
+                </fieldset>
+                    <button type="submit">Send your message</button>
             </form>
+        </div>
     </main>
     <footer>
-        <a href="https://facebook.com">
-            <img src="images/facebook.png" alt="fb icon" >
+        <a  href="https://facebook.com">
+            <img class="icon" src="images/facebook.png" alt="fb icon" >
         </a>
-        <a href="https://twitter.com">
-            <img src="images/twitter.png" alt="twitter icon">
+        <a  href="https://twitter.com">
+            <img class="icon" src="images/twitter.png" alt="twitter icon">
         </a>
-        <a  href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon">
+        <a   href="https://instagram.com" target="_blank">
+            <img class="icon" src="images/instagram.png" alt="instagram icon">
         </a>
-        <p><a href="index.html">Castro Acountting</a></p>
+        <p><a class= "link" href="site-plan.html">Wire Frame</a></p>
     </footer>
     </div>
 </body>
