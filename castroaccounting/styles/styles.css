@@ -99,12 +99,12 @@ header{
     border-radius: 25px;
     
 }
-   
+
 .text{
     display: flex;
     grid-row: 2/3;
     text-align: center;
-    background-color: #b9baa3;
+    background-color: #b9b9b9;
     padding-top: 40px;
     margin: 0 auto;
     padding-bottom: 40px;
@@ -181,15 +181,18 @@ font-family: "Yantramanav" ;
 #contact-grid{
     display: grid;
     grid-template-columns: 3fr 4fr;
-    grid-template-rows: 4fr 2fr
+    grid-template-rows: 4fr 2fr;
+   
 }
 #contact-grid{
   text-align: center;
   margin-top: 50px;
+
 }
 #title02{
     background-color: #902923;
     border-radius: 10px;
+
 }
 .subtitle{
     background-color: #b9b9b9;
@@ -203,9 +206,11 @@ font-family: "Yantramanav" ;
     margin: 30px;
     border-radius: 10px;
     margin-top: 40px;
+    padding: 10px auto;
+    background-color: #999;
 }
 
-}
+
 .contact-info{
     font-family: "Yantramanav";
     font-weight: bold;
@@ -217,18 +222,54 @@ font-family: "Yantramanav" ;
 }
 #content02{
     margin-top: 30px;
-}
-#feedback{
-    grid-column: 1/3;
-    grid-row: 2/4;
-    width: 80%;
-    margin: 20px auto;
-    border-radius: 10px;
-    text-align: center;
-    background-color: #902923;
-    padding: 20px;
     
+
 }
-fieldset{
-    display: block;
+
+
+form {
+        /* Center the form on the page */
+        margin: 0 auto;
+        width: 1000px;
+        /* Form outline */
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+        background-color: #902923;
+        grid-column: 1/3;
+        text-align: center;
+        margin-top: 10px;
+       
 }
+
+form li + li {
+    margin-top: 1em;
+  }
+label {
+    /* Uniform size & alignment */
+    display: inline-block;
+    width: 100px;
+    
+  }
+  input,
+  textarea {
+    /* To make sure that all text fields have the same font settings
+       By default, textareas have a monospace font */
+    font: 1em sans-serif;
+  
+    /* Uniform text field size */
+    width: 900px;
+    box-sizing: border-box;
+  
+    /* Match form field borders */
+    border: 1px solid #999;
+  }
+  
+textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+  
+    /* Provide space to type some text */
+    height: 5em;
+  }
+
