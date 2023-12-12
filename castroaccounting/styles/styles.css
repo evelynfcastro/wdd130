@@ -95,7 +95,7 @@ header{
     padding-left: 40% ;
     padding-right: 40%;
     padding-top: 20px;
-    background-color: #902823e8;
+    background-color: #999;
     border-radius: 25px;
     
 }
@@ -305,7 +305,7 @@ textarea {
 #steps{
     grid-column: 2/3 ;
     grid-row: 1/2;
-    background-color: #902923;
+    background-color: #999;
     
     margin: 10px auto;
     padding: 10px ;
@@ -315,7 +315,7 @@ textarea {
 #accounter{
     grid-column: 2/3;
     grid-row: 2/3 ;
-    background-color: #902923;
+    background-color: #999;
     margin: 10px auto;
     padding: 10px ;
     padding-left: 10px;
